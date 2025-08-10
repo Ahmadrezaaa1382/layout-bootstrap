@@ -13,12 +13,12 @@
 </head>
 
 <body>
-  <nav class=" navbar navbar-expand-sm bg-white navbar-white">
-    <div class="container w-50 border-bottom">
+  <nav class=" navbar navbar-expand-sm bg-white navbar-white ">
+    <div class="container w-50 border-bottom d-flex justify-content-center">
       <a class="navbar-brand" href="#">
         <i class="fa-brands fa-bootstrap" style="color: #000000;"></i>
       </a>
-      <a class="navbar-brand" href="#">pricing example</a>
+      <a class="navbar-brand text-muted" href="#">pricing example</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -27,16 +27,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link small" href="#">Feature</a>
+            <a class="nav-link small text-muted" href="#">Feature</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Enterprise</a>
+            <a class="nav-link text-muted" href="#">Enterprise</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Support</a>
+            <a class="nav-link text-muted" href="#">Support</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link text-muted" href="#">Pricing</a>
           </li>
         </ul>
       </div>
@@ -47,24 +47,22 @@
   <!-- CARD -->
 
   <article class="container-fluid">
-    <div class="container text-center">
+    <div class="container text-center ">
       <h2>Pricing</h2>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Quae enim, voluptatum dolores animi quod <br>, iste ut non a cum illu m incidunt aliquam eaque corporis unde
-        vero <br> minima cupiditate numquam consequatur.</p>
+      <p>Quickly build an effective pricing table for table for your potential customers with <br> this Bootstrap example exaple. it's built with defult Bootstrap components and <br> utilites with little customization.</p>
     </div>
   </article>
 
   <article class="container-fluid">
-    <section class="container row gap-3 mx-auto w-50">
+    <section class="container row gap-2 mx-auto w-50 d-flex justify-content-center">
       <div class="card text-center p-0" style="width: 15rem;">
         <div class="card-header">
           Featured
         </div>
         <div class="card-body">
-          <h5 class="card-title">$0/mo</h5>
+          <h5 class="card-title fs-6">$0/mo</h5>
           <p class="card-text">10 users included <br> 2GB of strange <br> Email support  <br> Help center access</p>
-          <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+          <a href="#" class=" w-100"><button type="button" class="btn btn-outline-primary">Sign up for free</button></a>
         </div>
         
       </div>
@@ -74,7 +72,7 @@
           Featured
         </div>
         <div class="card-body">
-          <h5 class="card-title">$15?mo</h5>
+          <h5 class="card-title fs-6">$15?mo</h5>
           <p class="card-text">20 users included <br> 10 GB of stronge <br> Priority email support <br> Help center access</p>
           <a href="#" class="btn btn-primary w-100">Go somewhere</a>
         </div>
@@ -88,7 +86,7 @@
           Enterprise
         </div>
         <div class="card-body ">
-          <h5 class="card-title">$29/mo</h5>
+          <h5 class="card-title fs-6">$29/mo</h5>
           <p>30 users included <br> 15 GB of strong <br> Phone and email support <br> Help center access</p>
           <a href="#" class="btn btn-primary w-100">Contact Us</a>
         </div>
@@ -159,10 +157,12 @@
     <hr class="w-75 d-flex justify-content-center">
   </div>
 
-  <!-- FOOTER -->
+  <!-- FOOTER -->d
   <footer class="container-fluid ">
-    <div class="container d-flex justify-content-center pt-3">
-      <ul class="list-group me-5">
+    <div class="container  w-50 pt-3 ">
+
+      <div class="row d-flex justify-content-center justify-content-around">
+ <ul class="list-group me-5 col-sm-12 col-xl-2">
         <li class="list-item" style="list-style-type: none;"><i class="fa-brands fa-bootstrap " style="color: #6e51c2;"></i></li>
         <li class="list-item" style="list-style-type: none;">&copy;2017-2025</li>
         <li class="list-item" style="list-style-type: none;"></li>
@@ -170,30 +170,32 @@
         <li class="list-item" style="list-style-type: none;"></li>
       </ul>
 
-      <ul class="list-group list-group-flush ms-5">
-        <li class="list-item" style="list-style-type: none;">Features</li>
-        <li class="list-item" style="list-style-type: none;">Cool stuff</li>
-        <li class="list-item" style="list-style-type: none;">Team feature</li>
-        <li class="list-item" style="list-style-type: none;">Stuff for developers</li>
-        <li class="list-item" style="list-style-type: none;">Another one</li>
-      <li class="list-item" style="list-style-type: none;">Last time</li>
+      <ul class="list-group list-group-flush ms-5 col-sm-12 col-xl-2">
+        <li class="list-item   fw-bold" style="list-style-type: none;">Features</li>
+        <li class="list-item  text-muted" style="list-style-type: none;">Cool stuff</li>
+        <li class="list-item  text-muted" style="list-style-type: none;">Team feature</li>
+        <li class="list-item  text-muted" style="list-style-type: none;">Stuff for developers</li>
+        <li class="list-item  text-muted" style="list-style-type: none;">Another one</li>
+        <li class="list-item  text-muted" style="list-style-type: none;">Last time</li>
       </ul>
 
-      <ul class="list-group list-group-flush ms-5">
-        <li class="list-item" style="list-style-type: none;">Resources</li>
-        <li class="list-item" style="list-style-type: none;">Resource</li>
-        <li class="list-item" style="list-style-type: none;">Resource name</li>
-        <li class="list-item" style="list-style-type: none;">Another resource</li>
-        <li class="list-item" style="list-style-type: none;">Final resource</li>
+      <ul class="list-group list-group-flush ms-5 col-sm-12 col-xl-2">
+        <li class="list-item  fw-bold" style="list-style-type: none;">Resources</li>
+        <li class="list-item  text-muted" style="list-style-type: none;">Resource</li>
+        <li class="list-item  text-muted" style="list-style-type: none;">Resource name</li>
+        <li class="list-item  text-muted" style="list-style-type: none;">Another resource</li>
+        <li class="list-item  text-muted" style="list-style-type: none;">Final resource</li>
       </ul>
 
-      <ul class="list-group list-group-flush ms-5">
-        <li class="list-item" style="list-style-type: none;">About</li>
-        <li class="list-item" style="list-style-type: none;">Team</li>
-        <li class="list-item" style="list-style-type: none;">Locations</li>
-        <li class="list-item" style="list-style-type: none;">Privacy</li>
-        <li class="list-item" style="list-style-type: none;">Terms</li>
+      <ul class="list-group list-group-flush ms-5 col-sm-12 col-xl-2">
+        <li class="list-item  fw-bold" style="list-style-type: none;">About</li>
+        <li class="list-item  text-muted " style="list-style-type: none;">Team</li>
+        <li class="list-item  text-muted " style="list-style-type: none;">Locations</li>
+        <li class="list-item  text-muted " style="list-style-type: none;">Privacy</li>
+        <li class="list-item  text-muted " style="list-style-type: none;">Terms</li>
       </ul>
+      </div>
+     
     </div>
 
 
